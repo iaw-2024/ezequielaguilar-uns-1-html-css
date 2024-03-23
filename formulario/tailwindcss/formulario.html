@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar Elemento</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesFormulario.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../../listado/tailwindcss/index.html">Listado</a></li>
+        <li><a href="formulario.html">Agregar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+          <div id="divAgregar">
+            <h1>Agregar Nuevo Elemento</h1>
+            <form id="formularioNuevoElemento">
+              <label for="nombreNuevo">Nombre:</label>
+              <input type="text" id="nombreNuevo" name="nombreNuevo" required>
+
+              <label for="descripcionNuevo">Descripción:</label>
+              <textarea id="descripcionNuevo" name="descripcionNuevo" required></textarea>
+
+              <button type="submit">Agregar</button>
+            </form>
+        </div>
+
+            <div id="divEditar">
+              <h1>Editar Elemento</h1>
+              <form id="formularioEdicion">
+                <label for="nombreEdicion">Nombre:</label>
+                <input type="text" id="nombreEdicion" name="nombreEdicion" required>
+    
+                <label for="descripcionEdicion">Descripción:</label>
+                <textarea id="descripcionEdicion" name="descripcionEdicion" required></textarea>
+    
+                <button type="submit">Agregar</button>
+              </form>
+            </div> 
+
+        </div>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Agregado de Elementos</p>
+  </footer>
+
+</body>
+</html>
