@@ -5,36 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Listado de Elementos</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="stylesIndex.css">
 </head>
-<body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Listado</a></li>
-          <li><a href="../../formulario/bootstrap/formulario.html">Agregar</a></li>
-        </ul>
-      </nav>
-      <div id="ufc">UFC</div>
+<body class="d-flex flex-column vh-100">
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            
+              <ul class="navbar-nav mx-auto"> <!-- Utilizamos mx-auto para centrar los elementos -->
+                <!-- Agrega tus elementos de lista como <li> y <a> dentro de la navbar-nav -->
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Listado</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../../formulario/bootstrap/formulario.html">Agregar</a>
+                </li>
+              </ul>
+    
+          </nav>
+        <div class="bg-danger text-white text-center py-3 h1">UFC</div>
     </header>
   
-    <main>
-        <div class="container-fluid">
+    <main class="flex-grow-1 bg-secondary">
+        <div class="container-fluid py-5">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="elemento">
-                    <h1>Conor Mcgregor</h1>
-                        <p>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="bg-dark p-3">
+                    <h1 class="text-white">Conor Mcgregor</h1>
+                        <p class="text-white">
                             Conor Anthony McGregor es un luchador irlandés de artes marciales mixtas que actualmente compite 
                             en las categorías de peso ligero y peso wélter de Ultimate Fighting Championship.
                         </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="elemento">
-                    <h1>Ilia Topuria</h1>
-                        <p>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="bg-dark p-3">
+                    <h1 class="text-white">Ilia Topuria</h1>
+                        <p class="text-white">
                             Ilia Topuria ​ es un peleador de artes marciales mixtas español.​​​​ ​Actualmente compite en la categoría de peso pluma de 
                             Ultimate Fighting Championship, donde es el actual Campeón Mundial de Peso Pluma de UFC.​ 
                             Desde el 20 de febrero de 2024, está en la posición #5 del ranking libra por libra de UFC.
@@ -42,10 +48,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="elemento">
-                    <h1>Alexander Volkanovski</h1>
-                        <p>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="bg-dark p-3">
+                    <h1 class="text-white">Alexander Volkanovski</h1>
+                        <p class="text-white">
                             Alexander Volkanovski es un peleador australiano de artes marciales mixtas que actualmente compite en la categoría de peso pluma de Ultimate Fighting Championship, 
                             donde ha sido Campeón Mundial de Peso Pluma de UFC, 
                             habiendo ostentado el título desde diciembre de 2019 a febrero de 2024.
@@ -53,29 +59,29 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="elemento">
-                    <h1>José Aldo</h1>
-                        <p>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="bg-dark p-3">
+                    <h1 class="text-white">José Aldo</h1>
+                        <p class="text-white">
                             José Aldo da Silva Oliveira Júnior. es un peleador brasileño de artes marciales mixtas que compite en la categoría de Peso Gallo después de anteriormente compitiendo en Peso Pluma en la Ultimate Fighting Championship.
                         </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="elemento">
-                    <h1>Marlon Vera (el Chito)</h1>
-                        <p>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="bg-dark p-3">
+                    <h1 class="text-white">Marlon Vera (el Chito)</h1>
+                        <p class="text-white">
                             Marlon Andrés Vera Delgado, también conocido como Chito Vera, es un peleador ecuatoriano de artes marciales mixtas que actualmente compite en la categoría de peso gallo de Ultimate Fighting Championship. 
                             Desde el 20 de febrero de 2024, está en la posición #5 del ranking de peso gallo de UFC.​​​
                         </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="elemento">
-                    <h1>Sean O'Malley</h1>
-                        <p>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="bg-dark p-3">
+                    <h1 class="text-white">Sean O'Malley</h1>
+                        <p class="text-white">
                             Sean Daniel O'Malley​ es un peleador estadounidense de artes marciales mixtas que actualmente compite en la categoría de peso gallo de Ultimate Fighting Championship, 
                             donde es el actual Campeón Mundial de Peso Gallo de UFC.
                         </p>
@@ -86,7 +92,7 @@
         </div>
     </main>
   
-    <footer>
+    <footer class="bg-dark text-white text-center py-2">
       <p>&copy; 2023 Listado de Elementos</p>
     </footer>
   

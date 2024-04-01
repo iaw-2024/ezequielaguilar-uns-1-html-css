@@ -65,6 +65,7 @@ body {
     box-shadow: 0 0 10px rgba(117, 2, 2, 0.2);
     width: 100%;
     max-width: 300px;
+    background-color: rgba(5, 1, 1, 0.4);
   }
 
   h1 {
